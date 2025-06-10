@@ -23,19 +23,26 @@
 
 <h2>Initial Setup Requirements</h2>
 <ul>
-<li>Spin up a Virtual Machine in Azure</li>
+<li>Deploy a Virtual Machine in Azure</li>
 
-<li>Get osTicket v1.15.8</li>
+<li>Install osTicket v1.15.8</li>
 
-<li>Set up HeidiSQL</li>
+<li>Install HeidiSQL</li>
 
 <li>Install MySQL</li>
 
-<li>Configure PHP</li>
+<li>Install PHP</li>
 
 <li>Install Microsoft Visual C++ Redistributable</li>
 </ul>
-<h2>Installation Process</h2> <h3 align="center">Deploy a VM in Azure</h3> <br /> <h3 align="center">Begin by creating a Resource Group in the Azure Portal.</h3> <p><img src="https://i.imgur.com/eBi5k2l.png" height="75%" width="100%" /></p> <h3 align="center">Then, provision a Windows 10 Virtual Machine—2-4 vCPUs are recommended. Use any login credentials you prefer, as you’ll use them to remote into the VM. Let Azure set up a new Virtual Network (VNet).</h3> <p><img src="https://i.imgur.com/dEF1c7h.png" height="75%" width="100%" /></p> <h3 align="center">Using the Remote Desktop app on your system, connect to the VM using the credentials you created.</h3> <p><img src="https://github.com/Joeljjoseph1998/osticket-prereqs/assets/50834280/2e71fd86-4198-47aa-aa1a-d0aed1b8e0eb"/></p>
+<h2>Installation Process</h2> <h3 align="center">Deploy a VM in Azure</h3> <br /> <h3 align="center">Begin by creating a Resource Group in the Azure Portal.</h3> <p><img src="https://i.imgur.com/eBi5k2l.png" height="75%" width="100%" /></p> <h3 align="center">Then, provision a Windows 10 Virtual Machine—2-4 vCPUs are recommended. Use any login credentials you prefer, as you’ll use them to remote into the VM. Let Azure set up a new Virtual Network (VNet).</h3> <p><img src="https://i.imgur.com/dEF1c7h.png" height="75%" width="100%" /></p> <h3 align="center">Using the Remote Desktop app on your system, connect to the VM using the credentials you created.</h3> 
+<p>
+![image](https://github.com/user-attachments/assets/5aa7f5d0-3a6a-483d-8e6c-53b57162a950)
+</p>
+
+
+### <p><img src="https://github.com/Joeljjoseph1998/osticket-prereqs/assets/50834280/2e71fd86-4198-47aa-aa1a-d0aed1b8e0eb"/></p>
+
 <h3 align="center">Turn On IIS (Internet Information Services)</h3>
 Go to:
 Search > Control Panel > Programs > Turn Windows features on/off,
@@ -44,7 +51,9 @@ then locate and enable Internet Information Services (IIS).
 <p><img src="https://i.imgur.com/iB0DDRd.png" height="75%" width="100%" /></p>
 Within IIS, expand:
 Internet Information Services > World Wide Web Services > Application Development Features,
-then check the box next to CGI and click OK.
+then check the box next to CGI and click OK. The CGI (Common Gateway Interface) feature must be enabled before you can install PHP Manager.
+
+PHP Manager is essential for configuring PHP in IIS and is required for osTicket to function properly. It enables the backend PHP code—which powers osTicket—to run through your web browser via the IIS web server. 
 
 <p><img src="https://github.com/Joeljjoseph1998/osticket-prereqs/assets/50834280/a6af9c35-e10c-4d7e-b2c8-30ffbe128f08" height="75%" width="100%"/></p>
 <h3 align="center">Install PHP Manager and Rewrite Module</h3>
