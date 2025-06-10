@@ -89,13 +89,11 @@ php_intl.dll
 
 php_opcache.dll
 
-<h3 align="center">Refresh the osTicket site in your browser, observe the changes</h3>
-<br />
-<p>
-	<img src="https://i.imgur.com/6iSNd4H.png" height="75%" width="100%" />
-</p>
-
 <p><img src="https://i.imgur.com/LFKo5Hs.png" height="75%" width="100%"/></p>
+
+<h3 align="center">Refresh the osTicket site in your browser, observe the changes</h3>
+<p><img src="https://i.imgur.com/6iSNd4H.png" height="75%" width="100%" /></p>
+
 <h3 align="center">Configure osTicket Files</h3>
 Rename the configuration file:
 From: ost-sampleconfig.php
