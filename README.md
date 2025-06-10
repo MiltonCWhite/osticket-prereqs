@@ -63,7 +63,7 @@ Open File Explorer and go to C:\, then create a new folder named PHP.
 
 From the provided download link, get php-7.3.8-nts-Win32-VC15-x86.zip, extract it into the PHP folder you just created.
 
-<p><img src="https://github.com/user-attachments/assets/f609e2a8-ac44-4920-972f-341f8b610f34)" height="75%" width="100%"/></p>
+<p><img src="https://github.com/user-attachments/assets/f609e2a8-ac44-4920-972f-341f8b610f34" height="75%" width="100%"/></p>
 <h3 align="center">Install VC++ Redistributable</h3>
 Download and install the Visual C++ Redistributable, agreeing to any prompts.
 
