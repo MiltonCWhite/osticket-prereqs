@@ -10,27 +10,31 @@
 
 
 <h2>Tools and Technologies Utilized</h2>
-Windows 10 (Version 19044)
+<ul>
+<li>Windows 10 (Version 19044)</li>
 
-Microsoft Azure (VM Deployment)
+<li>Microsoft Azure (VM Deployment)</li>
 
-Remote Desktop Protocol (RDP)
+<li>Remote Desktop Protocol (RDP)</li>
 
-Internet Information Services (IIS)
+<li>Internet Information Services (IIS)</li>
+</ul>
+
 
 <h2>Initial Setup Requirements</h2>
-Spin up a Virtual Machine in Azure
+<ul>
+<li>Spin up a Virtual Machine in Azure</li>
 
-Get osTicket v1.15.8
+<li>Get osTicket v1.15.8</li>
 
-Set up HeidiSQL
+<li>Set up HeidiSQL</li>
 
-Install MySQL
+<li>Install MySQL</li>
 
-Configure PHP
+<li>Configure PHP</li>
 
-Install Microsoft Visual C++ Redistributable
-
+<li>Install Microsoft Visual C++ Redistributable</li>
+</ul>
 <h2>Installation Process</h2> <h3 align="center">Deploy a VM in Azure</h3> <br /> <h3 align="center">Begin by creating a Resource Group in the Azure Portal.</h3> <p><img src="https://i.imgur.com/eBi5k2l.png" height="75%" width="100%" /></p> <h3 align="center">Then, provision a Windows 10 Virtual Machine—2-4 vCPUs are recommended. Use any login credentials you prefer, as you’ll use them to remote into the VM. Let Azure set up a new Virtual Network (VNet).</h3> <p><img src="https://i.imgur.com/dEF1c7h.png" height="75%" width="100%" /></p> <h3 align="center">Using the Remote Desktop app on your system, connect to the VM using the credentials you created.</h3> <p><img src="https://github.com/Joeljjoseph1998/osticket-prereqs/assets/50834280/2e71fd86-4198-47aa-aa1a-d0aed1b8e0eb"/></p>
 <h3 align="center">Turn On IIS (Internet Information Services)</h3>
 Go to:
