@@ -1,5 +1,5 @@
 <p align="center"> 
-<img src="https://i.imgur.com/Clzj7Xs.png"/> </p> 
+<img src="https://github.com/user-attachments/assets/d5e9c2af-079a-4e5c-8a2d-3b1f802b9bc2"/> </p> 
 
 <h1>Installing osTicket: A Step-by-Step Guide</h1> Follow this simplified walkthrough to set up the osTicket support ticket system on a Windows-based virtual environment.
 <h2>Required Downloads</h2>
@@ -71,15 +71,16 @@ Download and install the Visual C++ Redistributable, agreeing to any prompts.
 <h3 align="center">Set Up MySQL</h3>
 Install MySQL and configure a root username and password—this will be used later for the database osTicket relies on.
 
-<p><img src="https://i.imgur.com/IVpLg40.png" height="75%" width="100%"/><br/> <img src="https://i.imgur.com/zdhWXNx.png" height="75%" width="100%"/></p>
+<p><img src="https://github.com/user-attachments/assets/400fa60c-62d0-45fe-8cf8-ab25aae60e99" height="75%" width="100%"/><br/> <img src="https://github.com/user-attachments/assets/69c35dd7-b115-47ac-b869-8015c73604da" height="75%" width="100%"/></p>
 <h3 align="center">osTicket Installation</h3>
 Download osTicket (from the earlier shared lab files), extract it, and move the upload folder to C:\inetpub\wwwroot. Then rename upload to osTicket.
 
-<p><img src="https://i.imgur.com/0MUJLMU.png" height="75%" width="100%"/> <img src="https://i.imgur.com/1h9goM8.png" height="75%" width="100%"/> <img src="https://i.imgur.com/pDikkgq.png" height="75%" width="100%"/></p>
+<p><img src="https://github.com/user-attachments/assets/4b6fbc8d-f798-4d00-8adf-8f0c4486caf7" height="75%" width="100%"/> <img src="https://github.com/user-attachments/assets/9c0bffcd-57c7-422b-8f74-67e9f4015764" height="75%" width="100%"/> <img src="https://github.com/user-attachments/assets/30c45535-c37d-49fb-8369-8a09e492aeed" height="75%" width="100%"/></p>
 <h3 align="center">Restart IIS and Access osTicket in Browser</h3>
 Open IIS Manager, go to Sites > Default Web Site > osTicket and select “Browse *:80”.
 
-<p><img src="https://i.imgur.com/QeWNlG3.png" height="75%" width="100%"/> <img src="https://i.imgur.com/3iXhNbi.png" height="75%" width="100%"/></p>
+<p><img src="https://github.com/user-attachments/assets/66ebdb5e-6818-4862-ac19-8d3b2ff405c6)
+" height="75%" width="100%"/> <img src="https://github.com/user-attachments/assets/52d3cce3-2105-49f8-adfb-effec5283492" height="75%" width="100%"/></p>
 <h3 align="center">Enable PHP Extensions</h3>
 In IIS, double-click PHP Manager. Select "Enable or Disable an Extension", and enable:
 
@@ -106,7 +107,7 @@ Remove inheritance
 
 Add "Everyone" with full permissions
 
-<p><img src="https://i.imgur.com/1QtRWEF.png" height="75%" width="100%"/> <img src="https://i.imgur.com/YzsMXNX.png" height="75%" width="100%"/> <img src="https://i.imgur.com/k7x9yGR.png" height="75%" width="100%"/></p>
+<p><img src="https://github.com/user-attachments/assets/e37e29ba-aec7-4691-8f20-d36597bdea85" height="75%" width="100%"/> <img src="https://github.com/user-attachments/assets/2056d3c7-f7c2-4e0b-8371-eb33fbc930b4" height="75%" width="100%"/> <img src="https://github.com/user-attachments/assets/4d453617-7b4d-49e9-a2c6-c52ea2950b16" height="75%" width="100%"/></p>
 <h3 align="center">Complete Web Setup</h3>
 Continue the setup in your web browser:
 
@@ -114,7 +115,8 @@ Enter a Help Desk name
 
 Provide a default admin email
 
-<p><img src="https://i.imgur.com/rvMvlNC.png" height="75%" width="100%"/> <img src="https://i.imgur.com/YszhIpl.png" height="75%" width="100%"/></p>
+<p><img src="https://github.com/user-attachments/assets/2e9a196e-72aa-44eb-9397-92e5a3fa874e)
+" height="75%" width="100%"/> <img src="https://github.com/user-attachments/assets/f267817e-fa41-4451-9512-bdc33f397a77" height="75%" width="100%"/></p>
 <h3 align="center">Configure Database with HeidiSQL</h3>
 Install and open HeidiSQL
 
