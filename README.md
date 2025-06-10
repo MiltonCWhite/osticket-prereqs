@@ -57,7 +57,7 @@ Download and install PHP Manager, accepting the license agreements.
 <p><img src="https://i.imgur.com/pmwpPEu.png" height="75%" width="100%"/></p>
 Next, download and install the IIS Rewrite Module.
 
-<p><img src="https://github.com/Joeljjoseph1998/osticket-prereqs/assets/50834280/28cf2dd0-d39e-45f8-a01b-61aec6657228" height="75%" width="100%"/></p>
+<p><img src="https://github.com/user-attachments/assets/685aa82a-bf45-4c8f-aafc-85cec629f4df" height="75%" width="100%"/></p>
 <h3 align="center">Create the PHP Directory</h3>
 Open File Explorer and go to C:\, then create a new folder named PHP.
 
