@@ -1,5 +1,5 @@
 <p align="center"> 
-<img src="https://github.com/user-attachments/assets/d5e9c2af-079a-4e5c-8a2d-3b1f802b9bc2"/> </p> 
+<img src="https://i.imgur.com/Clzj7Xs.png"/> </p> 
 
 <h1>Installing osTicket: A Step-by-Step Guide</h1> Follow this simplified walkthrough to set up the osTicket support ticket system on a Windows-based virtual environment.
 <h2>Required Downloads</h2>
