@@ -4,7 +4,10 @@
 <h1>Installing osTicket: A Step-by-Step Guide</h1> Follow this simplified walkthrough to set up the osTicket support ticket system on a Windows-based virtual environment.
 <h2>Required Downloads</h2>
 
-- ### [Access Files Here] (https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6) 📁
+<p>
+- <a href = "https://drive.google.com/drive/u/0/folders/1APMfNyfNzcxZC6EzdaNfdZsUwxWYChf6">Access Files Here</a> 📁  
+</p>
+
 
 <h2>Tools and Technologies Utilized</h2>
 Windows 10 (Version 19044)
