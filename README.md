@@ -50,7 +50,7 @@ then check the box next to CGI and click OK. The CGI (Common Gateway Interface) 
 
 PHP Manager is essential for configuring PHP in IIS and is required for osTicket to function properly. It enables the backend PHP code—which powers osTicket—to run through your web browser via the IIS web server. 
 
-<p><img src="https://github.com/Joeljjoseph1998/osticket-prereqs/assets/50834280/a6af9c35-e10c-4d7e-b2c8-30ffbe128f08" height="75%" width="100%"/></p>
+<p><img src="https://github.com/user-attachments/assets/08cb342b-0443-4fce-b4db-9c29e5121039" height="75%" width="100%"/></p>
 <h3 align="center">Install PHP Manager and Rewrite Module</h3>
 Download and install PHP Manager, accepting the license agreements.
 
