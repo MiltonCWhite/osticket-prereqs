@@ -129,7 +129,7 @@ Password: Password1
 
 Then create a new database called osTicket
 
-<p><img src="https://i.imgur.com/9t51ApR.png" height="75%" width="100%"/> <img src="https://i.imgur.com/vXzmQqg.png" height="75%" width="100%"/></p>
+<p><img src="https://i.imgur.com/9t51ApR.png" height="75%" width="100%"/> <img src="https://github.com/user-attachments/assets/f473723c-ad33-4b0f-9ebe-b8a6412f7b0d" height="75%" width="100%"/></p>
 <h3 align="center">Final Steps in Browser</h3>
 In the osTicket web installer, input the following:
 
@@ -147,14 +147,14 @@ Click "Install Now!" and wait for success.
 Delete the setup directory:
 C:\inetpub\wwwroot\osTicket\setup
 
-<p><img src="https://i.imgur.com/eg0ZPG3.png" height="75%" width="100%"/></p>
+<p><img src="https://github.com/user-attachments/assets/602f3e7e-7887-42dc-8a77-fef878af5185" height="75%" width="100%"/></p>
 Set the ost-config.php file to Read-only mode:
 
-<p><img src="https://i.imgur.com/n6k46XL.png" height="75%" width="100%"/></p>
+<p><img src="https://github.com/user-attachments/assets/949299b2-096a-4f8f-938b-caf0b72d3c36" height="75%" width="100%"/></p>
 <h3 align="center">Log into the osTicket Admin Dashboard</h3>
 Go to:
 http://localhost/osTicket/scp/login.php
 
-<p><img src="https://i.imgur.com/8wvWH0H.jpg" height="75%" width="100%"/></p>
+<p><img src="https://github.com/user-attachments/assets/39b4327c-ed34-465a-98f0-9986871d3f57" height="75%" width="100%"/></p>
 <h3 align="center">You're All Set! 🎉</h3>
 osTicket has now been successfully installed and configured.
