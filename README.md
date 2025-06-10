@@ -36,12 +36,7 @@
 <li>Install Microsoft Visual C++ Redistributable</li>
 </ul>
 <h2>Installation Process</h2> <h3 align="center">Deploy a VM in Azure</h3> <br /> <h3 align="center">Begin by creating a Resource Group in the Azure Portal.</h3> <p><img src="https://i.imgur.com/eBi5k2l.png" height="75%" width="100%" /></p> <h3 align="center">Then, provision a Windows 10 Virtual Machine—2-4 vCPUs are recommended. Use any login credentials you prefer, as you’ll use them to remote into the VM. Let Azure set up a new Virtual Network (VNet).</h3> <p><img src="https://i.imgur.com/dEF1c7h.png" height="75%" width="100%" /></p> <h3 align="center">Using the Remote Desktop app on your system, connect to the VM using the credentials you created.</h3> 
-<p>
-![image](https://github.com/user-attachments/assets/5aa7f5d0-3a6a-483d-8e6c-53b57162a950)
-</p>
-
-
-### <p><img src="https://github.com/Joeljjoseph1998/osticket-prereqs/assets/50834280/2e71fd86-4198-47aa-aa1a-d0aed1b8e0eb"/></p>
+<p><img src ="https://github.com/user-attachments/assets/5aa7f5d0-3a6a-483d-8e6c-53b57162a950"/></p>
 
 <h3 align="center">Turn On IIS (Internet Information Services)</h3>
 Go to:
